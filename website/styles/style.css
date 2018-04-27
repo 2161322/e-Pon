@@ -19,6 +19,50 @@
 #navTop a:hover {
 	color: #FFFFFF;
 }
+.active {
+	color: #FFFFFF !important;
+}
 #rightButton {
 	float: right !important;
+}
+#loginBox {
+	margin: auto;
+	background-color: RGBA(44, 53, 57, 0.6);
+	top: 80px;
+	position: relative;
+	width: 800px;
+	height: 280px;
+}
+#loginBox p {
+	padding-top: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 26px;
+	letter-spacing: -1px;
+	font-family: Verdana;
+}
+#nameText {
+	position: absolute;
+	top: 90px;
+	left: 60px;
+	height: 30px;
+	font-size: 18px;
+	width: 80%;
+}
+#passw {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	height: 30px;
+	font-size: 18px;
+	width: 80%;
+}
+#submit {
+	position: absolute;
+	top: 190px;
+	left: 290px;
+	height: 40px;
+	font-size: 16px;
+	width: 220px;
 }
